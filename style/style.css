@@ -1,0 +1,273 @@
+/*General Styling*/
+h3{
+	font-size: 20px !important;
+	font-weight: 400 !important;
+}
+h2{
+	font-size: 32px;
+	font-weight: 400;
+	color:#1886C7 !important;
+	text-transform: uppercase !important;
+}
+p{
+	font-size: 14px;
+}
+.white-p{
+	color:white !important;
+}
+/*Navbar Section*/
+.navbar{
+	border-bottom:2px solid #1886C7;
+}
+body .bg-dark{
+	background-color: rgb(0,0,0) !important;
+}
+.navbar .navbar-brand{
+	color:#1886C7 !important;
+	font-size: 24px;
+}
+.navbar-brand:hover{
+	color:white !important;
+}
+.nav-link{
+	color:white !important;
+	text-transform: uppercase;
+	transition: color .7s ease !important;
+}
+.nav-link:hover{
+	color: #1886C7 !important;
+}
+
+#headerSection{
+	background: url(../images/back.jpg) no-repeat center center fixed;
+	background-size: cover;
+	height: 100vh;
+}
+#headerSection .overlay{
+	background-color: rgba(0,0,0,.3);
+	color:white;
+}
+#headerSection .row{
+	height: 100vh;
+}
+#headerSection span{
+	color:#1886C7;
+}
+#headerSection p{
+	font-family: 'Roboto', sans-serif;
+}
+#headerSection .btn-outline-primary{
+	padding-left: 30px;
+	padding-right: 30px;
+	cursor: pointer;
+}
+/*Features Section*/
+#features .svg-inline--fa{
+	font-size: 40px !important;
+}
+#features .features-top-blue{
+	transition: color .7s ease !important;
+}
+#features .features-top-blue:hover{
+	color:#1886C7;
+	cursor: pointer;
+}
+/*Our History Section*/
+#history h2{
+	border-left: 8px solid #1886C7;
+
+}
+#history .historyDisplay{
+	display: inline;
+}
+#history .btn-outline-primary{
+	position: absolute;
+	bottom: 0;
+}
+#history p{
+	line-height: 28px;
+}
+/*PortfolioSection*/
+#portfolio{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#portfolio{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #f5f5f5; 
+}
+.grid {
+  position: relative;
+}
+.item {
+  display: block;
+  position: absolute;
+  margin: 5px;
+  z-index: 1;
+  background: #000;
+  color: #fff;
+}
+.item.muuri-item-dragging {
+  z-index: 3;
+}
+.item.muuri-item-releasing {
+  z-index: 2;
+}
+.item.muuri-item-hidden {
+  z-index: 0;
+}
+.item-content {
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+.item.muuri-item-dragging img{
+	opacity: .5;
+}
+#team .card{
+	border:none;
+	opacity: .5;
+	cursor: pointer;
+}
+#team .card:hover{
+	opacity: 1;
+	transition: all .7s ease ;
+}
+.card-img-top{
+	width: 150px !important;
+	height: 150px;
+}
+#team .svg-inline--fa{
+	color:blue !important;
+}
+/*What We Do Section*/
+#whtWeDo{
+	background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(../images/modal-background.jpg);
+	background-size: cover;
+	background-attachment: fixed;/*Arkaplanın kaymasını sağlıyor!*/
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+/*What We Do Section*/
+#caseStudy{
+	background-color: #f5f5f5;
+	line-height: 24px;
+}
+.caseArea{
+	margin-top: 40px;
+	background-color: white;
+	margin-right: -30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px
+	/*Bu kısma ihiyaç yok ama metni resmin üstüne almak için kullanılabilir.
+	z-index:1;
+	position: relative;
+	*/
+}
+#caseStudy h3{
+	font-size: 18px;
+	color:#1886C7;
+}
+#caseStudy p{
+	line-height: 28px;
+}
+#caseStudy .fa-3x{
+	color:#1886C7 !important;
+}
+#caseStudy .caseImage{
+	margin-left: -10px
+}
+/*Portfolio Section*/
+#portfolio{
+	margin-top: 0px;
+}
+#portfolio .row .col-md-3{
+	padding-left: 0;
+	padding-right: 0;
+}
+#portfolio h4{
+	font-size: 16px;
+	font-weight: 300;
+}
+#portfolio .fa{
+	margin-bottom: 20px;
+}
+#portfolio p{
+	font-size: 14px;
+	font-weight: 300;
+}
+.imageContainer{
+	position: relative;
+	cursor: pointer;
+}
+.imageOverlay{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #1886c7;
+  	transition: .5s ease;
+  	opacity: 0;
+}
+.imageContainer:hover .imageOverlay{
+	opacity: .7;
+}
+.imageText{
+	position: absolute;
+	color:white;
+	top:40%;
+	left:40%;
+}
+
+.carousel-control-prev-icon{
+	width: 30px !important;
+	height: 30px !important;
+}
+.carousel-control-next-icon{
+	width: 30px !important;
+	height: 30px !important;
+}
+
+/*Testimoials Section*/
+.carousel-item p{
+	font-size: 18px !important;
+}
+.carousel-item .blockquote-footer{
+	font-size: 14px;
+	color:#1886C7 ;
+}
+.fa-quote-left{
+	color:#1886C7;
+	margin-bottom: 30px !important;
+}
+.carousel-inner img{
+	opacity: .5;
+}
+
+/*Contact Section*/
+#ContactUs{
+	background-color: #f4f5f9;
+}
+.input-group-text{
+	width: 45px !important;	
+	color:#fff;
+	background-color: #1886C7 !important; 
+
+}
+.input-group-text .svg-inline--fa{
+	color:white !important;
+}
+
+/*Footer Section*/
+#main-footer{
+	color:white;
+	background-color: black;
+}
